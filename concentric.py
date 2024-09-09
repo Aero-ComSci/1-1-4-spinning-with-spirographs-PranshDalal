@@ -1,5 +1,11 @@
 import turtle as t
+import random
+
+color_list = ['red', 'orange', 'yellow', 'green', 'blue', 'purple']
+
 def square(size):
+    color = random.choice(color_list)
+    t.color(color)
     for i in range(4):
         t.forward(size)
         t.left(90)
