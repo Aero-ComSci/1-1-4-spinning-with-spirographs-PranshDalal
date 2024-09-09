@@ -4,8 +4,18 @@
 *Complete the following.*
 
 1. Compare and contrast zero-iteration conditions and infinite loops.
+A zero-iteration loop is a loop that will never execute because the condition is not met while an infinite loop is a loop that never ends because the termination condition is never met. 
 2. A link to your code where you solve the following problem. Take the screen size of 800px. Create code or algorithm that always places the object(s), up to 5, in the center an equal distance from one another and from the edges of the screen.
+In order to place the objects an equal distance from each other, we have to
+   1. get the screen size
+   2. calculate size of the objects
+   3. calculate margin for spacing
+   4. position the objects
+![image](https://github.com/user-attachments/assets/f86d5095-7d65-4d25-89c9-1992e06bc9ba)
+
 3. Concentric Squares -- Add a screenshot of your result and the code to create it on your repo.
+![image](https://github.com/user-attachments/assets/8f77a881-6b4d-46f4-929c-9df808a810e0)
+
 Objective: Write a Python program using the turtle module to draw a pattern of concentric squares. The pattern should be created using nested loops.
 
 Instructions:
