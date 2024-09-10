@@ -44,9 +44,20 @@ Use the forward() and right() methods to draw the sides of the squares.
 
 
 4. Complete the steps 17, 18 and 19 from [mypltw use clever to sign on](https://pltw.read.inkling.com/a/b/5310c007377c46e28d745961310f0c2e/p/728c751a6c4145bea0ea83c5058fb9f9#44b0003a2ee14fcc9865e7bb5faec747)
+![image](https://github.com/user-attachments/assets/a14a8725-bf34-4aa2-b256-1213fa1ddc35)
+
 5. Answer to step 21
-6. Insert a screenshot or picture of the algorith you used for your tokenizer on the previous activity.
+The algorithm represents a loop to draw 3 circles based on a user input.  The program will continue to draw circles as long as the user enters "y" and will stop when the user enters "n".
+6. Insert a screenshot or picture of the algorithm you used for your tokenizer on the previous activity.
+![image](https://github.com/user-attachments/assets/ed530b99-f9a5-421e-8967-e4aecd5a4ab8)
+
 7. Give an example of an undecidable problem, attach code.
-   
+
+```python
+age = int(input("What is your birth year")
+while (age>3000):
+   age = age + 1
+print(age)
+```
 
 
