@@ -51,6 +51,8 @@ The algorithm represents a loop to draw 3 circles based on a user input.  The pr
 6. Insert a screenshot or picture of the algorithm you used for your tokenizer on the previous activity.
 ![image](https://github.com/user-attachments/assets/ed530b99-f9a5-421e-8967-e4aecd5a4ab8)
 
+The above code processes the user's input to find out how many and what type of flower they want using natural language processing.  The input is tokenized using nltk, which breaks the sentence down into individual tokens after converting it to lowecase letters.  These tokens are then filtered by using stop words provided by nltk.  The final tokens are then searched through to identify the type of flower and the number of flowers by checking if the token is in the list of flowers and if the token is a digit.  If the token is a flower, it is assigned the varaible flower_name and when the digit is found, it is stored as num_flowers. 
+
 7. Give an example of an undecidable problem, attach code.
 
 ```python
